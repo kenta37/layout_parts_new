@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.back {
+  background-color: #eff3f4;
+  padding: 20px;
+  box-sizing: border-box;
+}
 .table {
   display: table;
   width: 100%;
   text-align: center;
-  background-color: #eff3f4;
-  padding: 20px;
-  box-sizing: border-box;
 }
 .cell-padding {
   display: table-cell;
@@ -25,7 +27,7 @@
   background-color: #b6d8ed;
 }
 .table:last-child {
-  margin-top: 0;
+  margin-top: 20px;
 }
 .yellow {
   background-color: #e5d32e;
