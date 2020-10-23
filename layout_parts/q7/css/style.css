@@ -12,22 +12,20 @@
   width: 225px;
   box-sizing: border-box;
 }
-.first_left {
+.first:first-child {
   float: left;
 }
-.first_right {
+.first:last-child {
   float: right;
 }
 .second_table {
   display: table;
 }
-.second_left {
+.second {
   display: table-cell;
   vertical-align: middle;
 }
-.second_right {
-  display: table-cell;
-  vertical-align: middle;
+.second:last-child {
   padding-left: 50px;
 }
 .third {
