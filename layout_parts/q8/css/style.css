@@ -9,10 +9,10 @@
   margin: 0 auto;
   cursor: pointer;
 }
-.transition img {
+.transition_img {
   transition: 0.5s all;
 }
-.transition:hover .transition img {
+.transition:hover .transition_img{
   transform: scale(1.5,1.5);
 }
 .transition_text {
