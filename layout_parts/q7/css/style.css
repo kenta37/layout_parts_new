@@ -2,8 +2,10 @@
 
 /* 回答はここに書いてね */
 
-.overflow{
-  overflow: hidden;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .font {
   font-size: 16px;
@@ -24,6 +26,7 @@
 .second {
   display: table-cell;
   vertical-align: middle;
+  width: 225px;
 }
 .second:last-child {
   padding-left: 50px;
